@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  background-color: lightpink; 
+  color: black;
+  Text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1 px solid black;
+  Border-radius: 25 px;
+  padding: 20px;
+
+}
+
+#result {
+  margin-top: 50px;
+  padding: 100px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
