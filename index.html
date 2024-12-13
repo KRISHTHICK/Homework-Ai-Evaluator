@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework Evaluator</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <h1>Homework Evaluator</h1>
+    <p>Upload a picture of your homework and get an evaluation.</p>
+    <form id="upload-form">
+        <input type="file" id="homework-file" accept="image/*" required>
+        <button type="submit">Evaluate</button>
+    </form>
+    <div id="result"></div>
+    <div class="json-container">
+        <pre id="jsonDisplay"></pre>
+    </div>
+    <script src="../static/script.js"></script>
+</body>
+</html>
