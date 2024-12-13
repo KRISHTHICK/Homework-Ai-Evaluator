@@ -10,7 +10,7 @@ app = Flask(__name__)
 logging.basicConfig(level=logging.DEBUG)
 
 # Configure the API key for Google Generative AI (replace with your actual key)
-genai.configure(api_key="AIzaSyANasN1bt4sEN347hrd2kGpmyRo4Gg2Eb4")
+genai.configure(api_key="YOUR_API_KEY")
 
 # Define the model configuration
 generation_config = {
